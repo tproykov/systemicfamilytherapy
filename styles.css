@@ -108,11 +108,22 @@ header nav ul {
 .photo-container img {
     display: inline-block;
     position: absolute;
-    top: 335px;
+    top: 310px;
     right: 5px;
+    max-width: 280px;
     vertical-align: middle;
     margin: 0 7px;
     z-index: 2;
+}
+
+.page-footer {
+    background: #444549;
+    color: #fff;
+}
+
+.page-footer a {
+    color: #fff;
+    text-decoration: none;
 }
 
 
